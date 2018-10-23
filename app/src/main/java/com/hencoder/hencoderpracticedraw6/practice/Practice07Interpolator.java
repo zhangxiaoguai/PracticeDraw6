@@ -99,5 +99,10 @@ public class Practice07Interpolator extends LinearLayout {
                         });
             }
         });
+
+        /**
+         * 计算任何一个时间点所对应的动画完成度的百分比
+         * 根据时间计算出动画完成度的百分比
+         */
     }
 }
