@@ -30,7 +30,7 @@ public class Practice08ObjectAnimatorView extends View {
          */
         invalidate();
         /**
-         * 属性动画中第一类ViewPropertyAnimation中使用setTranslationX/Y/Z()等并没有使用invalidate来重绘界面，而是借助硬件加速，效率更高
+         * 属性动画中使用自带属性如setTranslationX/Y/Z()等做动画时，并没有使用invalidate来重绘界面，而是借助硬件加速，效率更高
          */
     }
 
